@@ -1,0 +1,60 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+.bao-khung{
+  padding-top: 100px;
+  transition: 0.5s;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+}
+.khung{
+  background-color: black;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+
+.khung:hover{
+  transform: translateY(-30px);
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 200px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(255, 179, 179);
+  background-color: rgba(255, 0, 0, 0.6); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-size: 100% 100%;
+  background-image: url("./img/lixi.PNG");
+  margin: auto;
+  /* padding: 50px; */
+  border: 1px solid #888;
+  width: 25%;
+  height: 55%;
+  background-repeat: no-repeat;
+}
+
+/* The Close Button */
+.close {
+  color: yellow;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
