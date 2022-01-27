@@ -1,19 +1,40 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./img/bg.png");
+  background-size: cover;
+}
 .bao-khung{
-  padding-top: 100px;
+  padding-top: 15%;
   transition: 0.5s;
   display: flex;
   cursor: pointer;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  /* justify-content: center; */
+  padding-left: 2%;
 }
 .khung{
-  background-color: black;
-  width: 300px;
-  height: 500px;
-  border-radius: 20px;
-  margin: 0 20px;
+  /* background-color: black; */
+  width: 323px;
+  height: 580px;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
-
+#check1{
+  background-image: url("./img/lì\ xì\ 1.png");
+  background-size: cover;
+}
+#check2{
+  background-image: url("./img/lì\ xì\ 2.png");
+  background-size: cover;
+}
+#check3{
+  background-image: url("./img/lì\ xì\ 3.png");
+  background-size: cover;
+}
+#check4{
+  background-image: url("./img/lì\ xì\ 4.png");
+  background-size: cover;
+}
 .khung:hover{
   transform: translateY(-30px);
 }
@@ -35,10 +56,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
 /* Modal Content */
 .modal-content {
     background-size: 100% 100%;
-  background-image: url("./img/lixi.PNG");
+  background-image: url("./img/popup.png");
   margin: auto;
   /* padding: 50px; */
-  border: 1px solid #888;
+  /* border: 1px solid #888; */
   width: 25%;
   height: 55%;
   background-repeat: no-repeat;
@@ -46,15 +67,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* The Close Button */
 .close {
-  color: yellow;
+  color: white;
   float: right;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
+  padding-right: 10px;
 }
 
 .close:hover,
 .close:focus {
-  color: white;
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
