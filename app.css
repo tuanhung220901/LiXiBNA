@@ -14,26 +14,35 @@ body {
 }
 .khung{
   /* background-color: black; */
-  width: 323px;
+  width: 17%;
   height: 580px;
   /* border-radius: 10px; */
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
+@media only screen and (max-width: 1540px) {
+ .khung{
+  height: 470px;
+ }
+}
 #check1{
   background-image: url("./img/lì\ xì\ 1.png");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 #check2{
   background-image: url("./img/lì\ xì\ 2.png");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 #check3{
   background-image: url("./img/lì\ xì\ 3.png");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 #check4{
   background-image: url("./img/lì\ xì\ 4.png");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .khung:hover{
   transform: translateY(-30px);
