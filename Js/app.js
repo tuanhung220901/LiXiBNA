@@ -101,4 +101,13 @@ function check() {
     document.getElementById("money").innerText = money[number4]
   }
 }
+// loading
+function myFunction() {
+  var element = document.getElementById("loader");
+  element.style.display = "none"
+}
+function my() {
+  setTimeout(myFunction, 2500);
+}
+my();
 
