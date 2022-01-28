@@ -7,6 +7,12 @@ body {
   font-size: 45px;
   padding-top: 45%;
 }
+@media only screen and (max-width: 1600px) {
+  #money{
+    font-size: 35px;
+    padding-top: 48%;
+  }
+}
 .bao-khung{
   padding-top: 15%;
   transition: 0.5s;
